@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Form</title>
+	<link rel="stylesheet" type="text/css" href="assets/bootstrap/css/bootstrap.min.css">
+	<link rel="stylesheet" type="text/css" href="assets/bootstrap/js/bootstrap.min.js">
+	<link rel="stylesheet" type="text/css" href="assets/css/style.css">
+</head>
+<body>
+<form method="post">
+	<div class="container mt bg-primary">
+		<h1 class="color text-center">
+		User Feedback
+	    </h1>
+		<div class="form-group mt-3">
+			<label for="user" class="color font-italic font-weight-bold"> User Name:</label>
+			<input type="name" name="" id="user" placeholder="Enter User Name" class="form-control">
+		</div>
+		<div class="form-group mt-3">
+			<label for="email" class="color font-italic font-weight-bold"> E-mail:</label>
+			<input type="email" name="" id="email" required="true" placeholder="Enter User Email" class="form-control">
+		</div>
+		<div class="form-group mt-3">
+			<label class="color font-italic font-weight-bold">Select Your City:</label>
+			<select class="form-control">
+				<option>Islamabad</option>
+				<option>Karachi</option>
+				<option>Lahore</option>
+				<option>Multan</option>
+				<option>Quetta</option>
+				<option>Other</option>
+			</select>
+	    </div>
+		<div class="form-group mt-3">
+			<label for="subject" class="color font-italic font-weight-bold"> Subject:</label>
+			<input type="name" name="" id="subject" placeholder="Enter Your Issue" class="form-control">
+		</div>
+	    <div class="form-group mt-3">
+	    	<label class="color font-italic font-weight-bold">Your Valuable Comment:</label>
+	    </div>
+	    <div class="form-group mt-3">
+	    	<textarea rows="10" placeholder="Enter Your Comment" class="form-control"></textarea>
+	    </div>
+	    <div class="form-group mt-3">
+	    	<input type="submit" name="" class="btn-info btn-lg mb-2 font-italic font-weight-bold">
+	    </div>
+	</div>		
+</form>
+</body>
+</html>
